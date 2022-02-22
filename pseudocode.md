@@ -18,8 +18,8 @@ By Default the app should prompt the user to click through the single page app t
 * Pages
  1. Header txt
  2. Helper txt
- 3. Circle button
- 4. Rectangle button
+ 3. Rectangle button
+ 4. Circle button
  5. Scroll Symbols txt
 
  ## Pseudocode:
@@ -27,3 +27,4 @@ By Default the app should prompt the user to click through the single page app t
 
 **INIT** Create Variables for Program
 
+ 
