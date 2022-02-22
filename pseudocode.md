@@ -12,3 +12,18 @@ By Default the app should prompt the user to click through the single page app t
     * Use functions to move forward a view, backward, reset to the first view, and display the correct view on load/after every state change
 - [] Use Icons of your choice
 - [] All multiples of 9 should be the same symbol so the math gimmick works
+
+## Objects:
+
+* Pages
+ 1. Header txt
+ 2. Helper txt
+ 3. Circle button
+ 4. Rectangle button
+ 5. Scroll Symbols txt
+
+ ## Pseudocode:
+**Start:** Start Program for Mind Reader App
+
+**INIT** Create Variables for Program
+
