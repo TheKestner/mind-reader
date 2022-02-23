@@ -51,3 +51,5 @@ By Default the app should prompt the user to click through the single page app t
  * Square button - addEventListener for click to next page. String name(Reveal) differnt for page 5
 
  * Circle button - addEventListener for Go to next page on click for page 1. Second function to Return/Refresh for pages 2-6
+
+ * Create Var Array of Pages /or JSON to Fetch array from
