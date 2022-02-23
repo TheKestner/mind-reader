@@ -16,32 +16,32 @@ By Default the app should prompt the user to click through the single page app t
 ## Objects:
 
 * Page 1
- 1. Header txt
- 2. Circle Go forward button
+    1. Header txt
+    2. Circle Go forward button
 * Page 2
- 1. Header txt
- 2. Square Next forward button
- 3. Helper txt
- 4. Circle return/refresh button
+    1. Header txt
+    2. Square Next forward button
+    3. Helper txt
+     4. Circle return/refresh button
 * Page 3
- 1. Header txt
- 2. Square Next forward button
- 3. Helper txt
- 4. Circle return/refresh button
+    1. Header txt
+    2. Square Next forward button
+    3. Helper txt
+    4. Circle return/refresh button
 * Page 4
- 1. Header txt
- 2. Square Next forward button
- 3. Helper txt
- 4. Circle return/refresh button
+    1. Header txt
+    2. Square Next forward button
+    3. Helper txt
+    4. Circle return/refresh button
 * Page 5
- 1. Array of Symbols/Scroll Header txt
- 2. Square Reveal forward button
- 3. Helper txt
- 4. Circle return/refresh button
+    1. Array of Symbols/Scroll Header txt
+    2. Square Reveal forward button
+    3. Helper txt
+    4. Circle return/refresh button
 * Page 6
- 1. Header txt
- 2. Helper txt
- 3. Circle return/refresh button
+    1. Header txt
+    2. Helper txt
+    3. Circle return/refresh button
 
  ## Pseudocode:
 **Start:** Start Program for Mind Reader App
