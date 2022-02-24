@@ -1,14 +1,16 @@
 const header = document.getElementById('header');
 const helper = document.getElementById('helper').style.display = "none";
-const circlebtn = document.getElementById('circlebtn');
+const circlebtn = document.getElementById('circlebtn').onclick = function changeCase(){changePage(page++)};
 
 let page = 0;
 
     
+ function changePage() { 
     switch(page) {
         case 0:
             header.innerHTML = 'I can read your mind';
             helper.innerHTML = none;
+            circlebtn.onclick = page++;
 
             break;
 
@@ -44,7 +46,9 @@ let page = 0;
 
 
     }
+ }
 
+ changePage();
 
 
 //let headertxt = ['I can read your mind', 'string 2', 'string 3', 'string 4'];
@@ -61,4 +65,11 @@ let page = 0;
 //let helperFour = helpertxt[3];
 //helper.innerHTML = helpertxt[0];
 
+//Function changeContent {
+//    for (let page = 0; i < 5; i++) {
+//        page++;
+//    }
+// }
+
 //button event listener
+// document.getElementById('circlebtn').onclick = function changecase(){};
