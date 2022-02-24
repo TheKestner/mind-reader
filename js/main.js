@@ -1,6 +1,7 @@
 const header = document.getElementById('header');
-const helper = document.getElementById('helper').style.display = "none";
+const helper = document.getElementById('helper');
 const circlebtn = document.getElementById('circlebtn').onclick = function changeCase(){changePage(page++)};
+const squarebtn = document.getElementById('squarebtn').onclick = function changeCase(){changePage(page--)};
 
 let page = 0;
 
@@ -11,37 +12,42 @@ let page = 0;
             header.innerHTML = 'I can read your mind';
             helper.innerHTML = none;
             circlebtn.onclick = page++;
-
+            squarebtn = none;
             break;
 
         case 1:
             header.innerHTML = 'Pick a number from 01 - 99';
             helper.innerHTML = 'when you have your number click next';
-
+            circlebtn.onclick = page++;
+            squarebtn.onclick = page--;
             break;
         
         case 2:
             header.innerHTML = 'Add both digits together to get a new number';
             helper.innerHTML = 'Ex: 14 is 1 + 4 = 5 click next to proceed';
-
+            circlebtn.onclick = page++;
+            squarebtn.onclick = page--;
             break;
         
         case 3:
             header.innerHTML = 'Subtract your new number from the original number';
             helper.innerHTML = 'Ex: 14 - 5 = 9 click next to procced';
-
+            circlebtn.onclick = page++;
+            squarebtn.onclick = page--;
             break;
 
         case 4: 
             header.innerHTML = ' need symbols list' ;
             helper.innerHTML = 'Find your new number. Note the symbol beside the number';
-
+            circlebtn.onclick = page++;
+            squarebtn.onclick = page--;
             break;
 
         case 5:
             header.innerHTML = 'return symbol'
             helper.innerHTML = 'your symbol is: return symbol'
-
+            circlebtn.onclick = page++;
+            squarebtn.onclick = page--;
             break;
 
 
@@ -72,4 +78,5 @@ let page = 0;
 // }
 
 //button event listener
+// style.display = none to hide?
 // document.getElementById('circlebtn').onclick = function changecase(){};
