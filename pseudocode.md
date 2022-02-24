@@ -45,9 +45,9 @@ By Default the app should prompt the user to click through the single page app t
 
  ## Pseudocode:
 
-**Start:** Start Program for Mind Reader App
+    Start Start Program for Mind Reader 
 
-**INIT** Create Variables for Program
+    INIT Create Variables for Program
 
     Create Obj - Pages
   
@@ -57,10 +57,10 @@ By Default the app should prompt the user to click through the single page app t
     Create Var Array of Pages /or JSON to Fetch array
     If we have data, populate else hide
 
- **Functions** 
+    Functions
     nextPage = page++
     else refreshPage to return to page 1
 
-    
+
 
     
