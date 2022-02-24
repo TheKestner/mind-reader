@@ -17,7 +17,7 @@ let page = 0;
 
         case 1:
             header.innerHTML = 'Pick a number from 01 - 99';
-            helper.innerHTML = 'when you have your number click next';
+            helper.innerHTML = 'When you have your number click next';
             circlebtn.onclick = page--;
             squarebtn.onclick = page++;
             break;
@@ -37,14 +37,14 @@ let page = 0;
             break;
 
         case 4: 
-            header.innerHTML = ' need symbols list' ;
+            header.innerHTML = ' Need symbols list' ;
             helper.innerHTML = 'Find your new number. Note the symbol beside the number';
             circlebtn.onclick = page--;
             squarebtn.onclick = page++;
             break;
 
         case 5:
-            header.innerHTML = 'return symbol'
+            header.innerHTML = 'Return symbol'
             helper.innerHTML = 'your symbol is: return symbol'
             circlebtn.onclick = page--;
             squarebtn.onclick = page++;
