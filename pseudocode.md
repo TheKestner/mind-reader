@@ -49,12 +49,18 @@ By Default the app should prompt the user to click through the single page app t
 
 **INIT** Create Variables for Program
 
- * Create Obj - Pages
+    Create Obj - Pages
   
- * Establish Click Handlers for the Buttons: Square button - addEventListener for click to next page5.String name(Reveal) differnt for page 5
-   Circle button - addEventListener for Go to next page on click for page 1. Second function to Return/Refresh for pages 2-6
+    Establish Click Handlers for the Buttons: Square button - addEventListener for click to next page5.String name(Reveal) differnt for page 5
+    Circle button - addEventListener for Go to next page on click for page 1. Second function to Return/Refresh for pages 2-6
 
- * Create Var Array of Pages /or JSON to Fetch array
+    Create Var Array of Pages /or JSON to Fetch array
     If we have data, populate else hide
 
- * 
+ **Functions** 
+    nextPage = page++
+    else refreshPage to return to page 1
+
+    
+
+    
