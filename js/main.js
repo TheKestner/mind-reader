@@ -36,7 +36,7 @@ squarebtn.addEventListener('click', forward);
             helper.innerHTML = 'When you have your number click next';
             helper.style.visibility = 'visible';
             circlebtn.innerHTML = 'Refresh';
-            squarebtn.innerHTML = 'Forward';
+            squarebtn.innerHTML = 'Next';
             squarebtn.style.visibility = 'visible';
             break;
         
