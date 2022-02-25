@@ -1,7 +1,8 @@
 let header = document.getElementById('header');
 let helper = document.getElementById('helper');
-let circlebtn = document.getElementById('circlebtn') //.onclick = function changeCase(){changePage(page--)};
-let squarebtn = document.getElementById('squarebtn') //.onclick = function changeCase(){changePage(page++)};
+let circlebtn = document.getElementById('circlebtn'); //.onclick = function changeCase(){changePage(page--)};
+let squarebtn = document.getElementById('squarebtn'); //.onclick = function changeCase(){changePage(page++)};
+let symbols = ['~', '!', '@', '#', '$', '%', '^', '&', '*',];
 
 let page = 0;
 
@@ -55,15 +56,15 @@ squarebtn.addEventListener('click', forward);
             break;
 
         case 4: 
-            header.innerHTML = ' Need symbols list' ;
+            header.innerHTML = symbols;
             helper.innerHTML = 'Find your new number. Note the symbol beside the number';
             circlebtn.innerHTML = 'Refresh';
             squarebtn.innerHTML = 'Reveal';
             break;
 
         case 5:
-            header.innerHTML = 'Return symbol'
-            helper.innerHTML = 'your symbol is: return symbol'
+            header.innerHTML = 'random symbol';
+            helper.innerHTML = 'your symbol is: return symbol';
             circlebtn.innerHTML = 'Refresh';
             squarebtn.style.visibility = 'hidden';
             break;
