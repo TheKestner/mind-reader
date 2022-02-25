@@ -23,6 +23,11 @@ let forward = function () {
 circlebtn.addEventListener('click', resetbtn);
 squarebtn.addEventListener('click', forward);
 
+//   function random(min, max) {
+//   const num = Math.floor(Math.random() * (max - min + 1)) + min;
+//    return num;
+// }
+
  function changePage() { 
     switch(page) {
         case 0:
