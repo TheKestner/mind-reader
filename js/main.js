@@ -77,8 +77,8 @@ let list = numList();
             break;
 
         case 5:
-            header.innerHTML = '&';
-            helper.innerHTML = 'your symbol is: &';
+            header.innerHTML = '*';
+            helper.innerHTML = 'your symbol is: *';
             circlebtn.innerHTML = 'Refresh';
             squarebtn.style.visibility = 'hidden';
             break;
