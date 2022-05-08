@@ -1,4 +1,4 @@
-# Mind-reader
+# MIND-READER
 
 ## Description
 
