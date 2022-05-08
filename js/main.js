@@ -1,7 +1,7 @@
 let header = document.getElementById('header');
 let helper = document.getElementById('helper');
-let circlebtn = document.getElementById('circlebtn'); //.onclick = function changeCase(){changePage(page--)};
-let squarebtn = document.getElementById('squarebtn'); //.onclick = function changeCase(){changePage(page++)};
+let circlebtn = document.getElementById('circlebtn');
+let squarebtn = document.getElementById('squarebtn');
 let symbols = ['~', '!', '@', '#', '$', '%', '^', '&', '*'];
 
 let page = 0;
@@ -88,28 +88,3 @@ let list = numList();
  }
 
  changePage();
-
-
-//let headertxt = ['I can read your mind', 'string 2', 'string 3', 'string 4'];
-//    let headerOne = headertxt[0];
-//   let headerTwo = headertxt[1];
-//   let headerThree = headertxt[2];
-//  let headerFour = headertxt[3];
-//   header.innerHTML = headertxt[0];
-
-//let helpertxt = ['', 'when you have your number click next', 'string 3', 'string 4'];
-//let helperOne = helpertxt[0];
-//let helperTwo = helpertxt[1];
-//let helperThree = helpertxt[2];
-//let helperFour = helpertxt[3];
-//helper.innerHTML = helpertxt[0];
-
-//Function changeContent {
-//    for (let page = 0; i < 5; i++) {
-//        page++;
-//    }
-// }
-
-//button event listener
-// style.display = none to hide?
-// document.getElementById('circlebtn').onclick = function changecase(){};
